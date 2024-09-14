@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> लोकतान्त्रिक समाजवादी पार्टी, नेपाल</title>
+    <link rel="icon" type="image/x-icon" href="https://pgi81.github.io/lsp/img/LSP-N_logo.png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <meta name="twitter:title" content="लोकतान्त्रिक समाजवादी पार्टी  |  DEMOCRATIC SAMAJWADI PARTY">
+    <meta property="og:title" content="लोकतान्त्रिक समाजवादी पार्टी | DEMOCRATIC SAMAJWADI PARTY">
+    <meta name="twitter:url" content="https://moics.gov.np/">
+    <meta name="twitter:description" content="Powered by GIWMS | DOIT">
+    <link rel="canonical" href="https://pgi81.github.io/lsp/">
+    <meta property="og:image" content="https://pgi81.github.io/lsp/img/LSP-N_logo.png">
+    <meta name="twitter:image" content="https://pgi81.github.io/lsp/img/LSP-N_logo.png">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="800">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://pgi81.github.io/lsp/">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="800">
+
+    <meta name="description" content="Powered by GIWMS | DOIT">
+    <meta name="keywords" content="DEMOCRATIC SAMAJWADI PARTY">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Animate.css for advanced animations -->
+    <style>
+        /* .nav-color{
+                color: #fff;
+                -webkit-text-fill-color: #fff;
+            } */
+        .text-primary {
+            color: linear-gradient(to right, purple, red);
+        }
+
+        .cs {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .c {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .c:disabled {
+            pointer-events: none;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .event-details,
+        .event-slider,
+        .event-sponsorship-contact {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        .event-details,
+        .event-sponsorship-contact {
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .event-details:hover,
+        .event-sponsorship-contact:hover {
+            transform: scale(1.02);
+        }
+
+        .event-slider {
+            position: relative;
+        }
+
+        .carousel-item {
+            position: relative;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            text-shadow: 2px 2px 4px rgba(143, 126, 126, 0.452);
+            z-index: 10;
+            padding: 10px;
+            border-radius: 8px;
+            background: rgba(155, 14, 211, 0.938);
+            /* Dark overlay effect */
+            max-width: 90%;
+            /* Ensures it doesn't overflow */
+            box-sizing: border-box;
+        }
+
+        .carousel-caption h5 {
+            font-family: 'Arial Black', sans-serif;
+            font-size: calc(1.2rem + 1vw);
+            /* Responsive font size */
+            margin: 0;
+            background: rgba(0, 0, 0, 0.5);
+            /* Background for text */
+            padding: 10px;
+            border-radius: 8px;
+            color: #ff9900;
+            animation: textFadeIn 2s ease-in-out;
+            word-wrap: break-word;
+            /* Prevents text overflow */
+        }
+
+        /* Media queries for further adjustments on different screen sizes */
+        @media (max-width: 768px) {
+            .carousel-caption {
+                bottom: 5px;
+                left: 5px;
+                padding: 8px;
+            }
+
+            .carousel-caption h5 {
+                font-size: calc(1rem + 1vw);
+                /* Smaller text on smaller screens */
+                padding: 8px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .carousel-caption {
+                max-height: 40px;
+
+                bottom: 2px;
+                left: 2px;
+                padding: 6px;
+            }
+
+            .carousel-caption h5 {
+                font-size: calc(0.4rem + 1vw);
+                /* Even smaller text on very small screens */
+                padding: 6px;
+            }
+
+            li {
+                font-size: calc(0.4rem + 1vw);
+            }
+
+            .contact-nav a {
+                width: 100%;
+                font-size: smaller;
+            }
+
+            .footer .footer-item p {
+                font-size: smaller;
+            }
+        }
+
+        .download-buttons a {
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        .contact-nav a {
+            margin-right: 10px;
+            transition: color 0.3s;
+        }
+
+        .contact-nav a:hover {
+            color: #007bff;
+        }
+
+        .btn-link {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .btn-link:hover {
+            text-decoration: underline;
+        }
+
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes textFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+
+        .carousel-item {
+            transition: transform 0.6s ease;
+        }
+        #presentation-container {
+    width: 100%;
+    max-width: 700px;
+    height: 650px;
+    position: relative;
+}
+
+#presentation-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.animated__flag {
+            display: flex;
+            align-items: center;
+            grid-gap: 10px;
+            grid-column: 4;
+            padding: 10px 35px;
+        }
+
+        @media (max-width: 768px) {
+            .animated__flag {
+                display: none;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .animated__flag {
+                display: none;
+            }
+        }
+
+        .animated__flag .flag__img {
+            width: 45px;
+            height: 60px;
+        }
+
+        @media (max-width: 575px) {
+            .animated__flag .flag__img {
+                width: 35px;
+                height: 45px;
+            }
+        }
+
+        .animated__flag .flag__img img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .animated__flag .flag__info {
+            position: relative;
+            top: 4px;
+        }
+
+        .animated__flag .flag__info .date {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .animated__flag .flag__info .date p {
+            margin-bottom: 0;
+            font-size: 16px;
+            color: #fff;
+            white-space: nowrap;
+        }
+        .contact-nav a{
+            color: #fff;
+
+            margin:10px;
+        }
+    </style>
+
+</head>
+
+<body>
+ <!-- Nav Bar Start -->
+ <div class="navbar navbar-expand-lg bg-light navbar-light">
+    <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">
+            <img src="img/LSP-N_logo.png" alt="लोकतान्त्रिक समाजवादी पार्टी" style="height: 40px;">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a href="index.html" class="nav-item nav-link ">गृह खण्ड</a>
+                <a href="index.html#about" class="nav-item nav-link">हाम्रो बारे</a>
+                <a href="program.html" class="nav-item nav-link active">आगामि कार्यक्रमहरू</a>
+                <!-- <a href="#team" class="nav-item nav-link">हाम्रा सदस्यहरू</a> -->
+                <!-- <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#price" class="nav-item nav-link">Price</a>
+                <a href="#review" class="nav-item nav-link">Review</a>
+                <a href="#team" class="nav-item nav-link">Team</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a> -->
+                <!-- <a href="#contact" class="nav-item nav-link">Contact</a> -->
+            </div>
+        </div>
+        <div class="animated__flag"></div>
+        <div class="flag__img">
+            <img src="https://giwmscdnone.gov.np/static/grapejs/img/Nepal-flag.gif" alt="NepalFlag">
+
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Nav Bar End -->
+
+
+<!-- Hero Start -->
+<div class="hero" id="home">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-6">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p>लोकतान्त्रिक</p>
+                        <h1> समाजवादी पार्टी</h1>
+                        <h2></h2>
+                        <div class="typed-text">पहिचान, संघियता, लोकतान्त्रिक समाजवाद</div>
+                    </div>
+                    <div class="hero-btn">
+                        <a class="btn" href="program.html">हाम्रा कार्यक्रमहरू</a>
+                        <a class="btn" href="index.html/#about">हाम्रो बारे</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-none d-md-block">
+                <div class="hero-image">
+                    <img src="img/Mahantha_Thakur_during_a_press_conference.jpg" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hero End -->
+<div class="container">
+    <div class="row">
+        <!-- First Row -->
+        <div class="col-md-4 event-details animate__animated animate__fadeIn animate__delay-1s">
+            <h4>कार्यक्रम विवरण</h4>
+            <ul>
+                <li><strong>स्थान:</strong> परिभाषित गरिएको छैन</li>
+                <li><strong>ठेगाना:</strong> परिभाषित गरिएको छैन</li>
+                <li><strong>कार्यक्रम मिति:</strong> परिभाषित गरिएको छैन</li>
+                <li><strong>अवधि:</strong> परिभाषित गरिएको छैन</li>
+                <li><strong>सुरु समय:</strong> परिभाषित गरिएको छैन</li>
+                <li><strong>अन्त्य समय:</strong> परिभाषित गरिएको छैन</li>
+                <li><strong>शैली:</strong> परिभाषित गरिएको छैन</li>
+                <li><strong>आयोजक:</strong> <a ><strong>लोकतान्त्रिक विद्यार्थी संघ</strong></a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 event-details animate__animated animate__fadeIn animate__delay-2s">
+            <h4>कार्यक्रम टोली</h4>
+            <ul>
+                <li>परिभाषित गरिएको छैन</li>
+                <!-- <li>दोस्रो पुरस्कार: ह्याम्परहरू</li> -->
+            </ul>
+        </div>
+        <div class="col-md-4 event-details animate__animated animate__fadeIn animate__delay-3s">
+            <h4>कार्यक्रम सहयोग</h4>
+            <ul>
+                <li>परिभाषित गरिएको छैन</li>
+                <!-- <li> दर्शक शुल्क :- 150 दर्शकहरू</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Second Row: Event Judge with Image Slider -->
+        <div class="col-md-12 event-slider animate__animated animate__fadeIn animate__delay-4s">
+            <h4>कार्यक्रम प्रस्तुति १</h4>
+            <main class="container my-4">
+                <div class="d-flex justify-content-center">
+                    <div id="1726307767989" style="width:100%;max-width:700px;height:650px;margin:auto;display:block;position: relative;border:2px solid #dee1e5;border-radius:3px;"><iframe allow="clipboard-write" allowfullscreen="true" style="width:100%;height:100%;border:none;" src="https://app.presentations.ai/view/G6UMoL" scrolling="no"></iframe></div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Third Row: Sponsorship and Contact Us -->
+        <div class="col-md-6 event-sponsorship-contact animate__animated animate__fadeIn animate__delay-5s">
+            <h4>प्रायोजन अवसरहरू</h4>
+            <p>प्रायोजन अवसरहरूको विवरण।</p>
+            <div class="download-buttons">
+                <a href="Democratic Student Union P1.pdf" class="btn btn-primary" download="Democratic_Student_Union_P1.pdf">कार्यक्रम प्रस्ताव डाउनलोड गर्नुहोस्</a>
+            </div>
+        </div>
+        <div class="col-md-6 event-sponsorship-contact animate__animated animate__fadeIn animate__delay-6s">
+            <h4>संपर्क गर्नुहोस्</h4>
+            <p>यदि तपाइँसँग कुनै प्रश्न छ भने, कृपया सम्पर्क गर्नुहोस्:</p>
+            <div class="contact-nav">
+                <a href="tel:+977-9855037117" class="btn btn-link">सम्पर्क: +977 - 9855037117</a>
+                <a href="https://pgi81.github.io/lsp/" class="btn btn-link">हाम्रो वेबसाइटमा जानुहोस्</a>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- Footer Start -->
+ <div class="footer wow fadeIn" data-wow-delay="0.3s">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="footer-info">
+                <h2>लोकतान्त्रिक समाजवादी पार्टी</h2>
+                <h3>	Babarmahal, Kathmandu</h3>
+                <div class="footer-menu">
+                </div>
+                <!-- <div class="footer-social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div> -->
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; <a href="#">लोकतान्त्रिक समाजवादी पार्टी, नेपाल (LSPN)</a>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Back to top button -->
+<a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+<!-- Pre Loader -->
+<div id="loader" class="show">
+    <div class="loader"></div>
+</div>
+ <!-- Template Javascript -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="../../lib/wow/wow.min.js"></script>
+ <script src="../../lib/easing/easing.min.js"></script>
+ <script src="../../lib/waypoints/waypoints.min.js"></script>
+ <script src="../../lib/counterup/counterup.min.js"></script>
+ <script src="../../lib/lightbox/js/lightbox.min.js"></script>
+ <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+ <script src="../../js/main.js"></script>
+
+ <!-- Bootstrap JS and dependencies -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <!-- <script>
+
+     window.onload = function () {
+         // Create a new URL object
+         let url = new URL(window.location.href);
+
+         // Remove the filename from the pathname
+         url.pathname = url.pathname.substring(0, url.pathname.lastIndexOf('/') + 1);
+
+         // Use history.replaceState to update the URL without reloading the page
+         history.replaceState(null, '', url.toString());
+
+         // Now the URL in the address bar is updated
+         console.log("Updated URL:", url.toString());
+     };
+
+ </script> -->
+</body>
+
+</html>
